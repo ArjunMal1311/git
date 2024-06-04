@@ -1,0 +1,34 @@
+Version Control System
+
+System that records changes to a file or set of files over time so that you can recall specific versions later
+Recorded in repository
+Local, Centralized and Distributed VCS
+
+Local - Stored on System
+Centralized - Central server is used to store files and is connected to each programmer
+Distributed - Everyone has their own local copy and they can push commit to the main repository
+
+In Centralized, worker will push directly to the server so if there is any error then it will be time
+consuming process to go back. In Distributed, worker will firsty commit to local then if he/she is 
+satisfied then they can push to main repository
+
+Why VCS?
+1. Collaboration
+2. Rollback
+3. Analyze and compare versions
+4. Manage versions
+5. Reduce downtime
+
+One of the most popular VCS is git
+
+Git is Distributed VCS, provides data assurance for developing quality. Let so many developers work on files
+and easily merge their changes into one source
+(Fast)
+
+Repository is a directory or storage space where projects can live. Folder on computer or online host (Github)
+
+Github
+(Open Source, Economical, Snapshots, Distributed, Speed, Robustness, Branching, Integriy[No changes can be made without Git recording])
+
+master branch contains publishable code
+any experimental thing can be done on another branch

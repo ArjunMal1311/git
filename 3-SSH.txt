@@ -1,0 +1,3 @@
+SSH - Secure Shell Network Protocol
+Used in remote communication on unsecured open Network
+(Remote file transer, network management and remote operating system access)

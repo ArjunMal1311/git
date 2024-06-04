@@ -1,0 +1,4 @@
+git branch -d <branch_name> ---- deletes the branch but it warns about the unmerged changes
+git branch -D <branch_name> ---- deletes the branch without any warning so not preferred
+
+git branch -b <branch_name> ---- creates and directly switches to the new branch

@@ -1,0 +1,44 @@
+1. SET UP REPO
+a. Git Init
+b. Git Clone 
+c. Git Config (Set up git configuration values on a global or local project like git config --global user.email "email@email.com")
+d. Git Alias (shorter commands that map to longer commands liek git config --global alias.co checkout)
+
+2. SAVE CHANGES
+a. Git Add
+b. Git Commit (git commit -m "message")
+
+(git status gives all the untracked files)
+
+creating new file (touch <filename.extension>)
+
+Steps
+a. git add -A (-A represents all)   [Adds all the file to staging area] [Only those files in staging area have their way to repo]
+b. git commit -m "message"
+c. git push origin master
+
+(git log ---- shows the history of the repository)
+(git tag <tag-name> ---- capture a point in history like 1.0.1. Tag is like a branch which doesnt change )
+(git blame <file-name> ---- shows who made last modification to that file)
+(git branch --v ----- shows on which branch we are working)
+(git pull origin main ----- updates the repo)
+
+3. Parallel Development
+Creating branches
+git branch (to check all the exisiting branches)
+git branch BranchA (creating a new branch)
+git checkout BranchA (Switching to new branch)
+git add and all things
+
+git merge BranchA (merging to the main branch)
+
+git rebase helps to intergrate changes from one branch onto another
+
+If someone doesnt have git installed in their computer we generally archive the repo in zip format
+git archive master --format=zip
+
+Bundling repo into single file
+git bundle create ../repo.bundler master
+
+Stashing uncommited Changes
+git stash
